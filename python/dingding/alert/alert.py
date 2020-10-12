@@ -16,8 +16,6 @@ def alert(dingUrl :str,msg :str):
         url=dingUrl,
         data=json.dumps(data), headers=headers)
     print(res.status_code)
-    print(dingUrl)
-    print(msg)
 
 if __name__ == '__main__':
     alert("url1","test")
