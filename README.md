@@ -1,4 +1,5 @@
 # workstar
 
-### 目录
- - [日志打印](#日志打印)
+## 目录
+### Python
+ - [日志打印](python/logs)
